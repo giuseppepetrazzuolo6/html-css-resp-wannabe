@@ -128,3 +128,33 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+@media screen and (max-width:480px) {
+
+    .container {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col,
+    .lessons .col,
+    .steps .col {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        text-align: left;
+    }
+
+
+}
